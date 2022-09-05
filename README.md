@@ -8,6 +8,10 @@ If true, it will use Maven to bump your pom's version.
 For example, a `#minor` update to version `1.3.9` will result in the version changing to `1.4.0`.
 The change will then be committed.
 
+## Fork Reason
+
+I forked this repo simply because it needed a small change for my own pipeline.
+
 ## Sample Usage
 
 ```yaml

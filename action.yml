@@ -1,8 +1,8 @@
 # ref: https://help.github.com/en/actions/building-actions/metadata-syntax-for-github-actions
 name: Maven Version Bump Action
-description: A simple GitHub Actions to bump the version of Maven projects
+description: Bump projects automatically
 
-author: Nick Nichols
+author: Nick Nichols & Forked by Niels van Marsbergen
 
 branding:
   color: purple
