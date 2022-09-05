@@ -53,5 +53,5 @@ git add $POMPATH/pom.xml
 REPO="https://$GITHUB_ACTOR:$TOKEN@github.com/$GITHUB_REPOSITORY.git"
 git commit -m "Bump pom.xml from $OLD_VERSION to $NEW_VERSION"
 git tag $NEW_VERSION
-git push $REPO --follow-tags
+git push $REPO --follow-tags --force
 git push $REPO --tags --force
